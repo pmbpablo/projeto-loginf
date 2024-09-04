@@ -38,6 +38,11 @@ main{
     overflow: hidden;
     /* esse "overflow" diz respeito a tudo que utrapassa a div. o "hidden" diz para apagar o que sair para fora */
 
+    transition: width .3s, heigth .3s;
+    /*Esse "transition" serve para fazer uma animação */
+    transition-timing-function: ease;
+    /*serve para deixar essa transição mais suave */
+
 }
 
 #imagem{

@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+:root{
+    --verde: #49a09d;
+    --lilas: #5f2c82;
+}
+
+@media screen and (min-width: 768px) and (max-width:992px) {
+
+    /*Tablet*/
+    body{
+        background-image: linear-gradient(to top, #49a09d, #5f2c82 );
+    }
+
+    #login{
+        width: 80vw;
+    }
+
+    #imagem{
+        /*Esse "float" serve para posicionar uma div, para que isso funsione a div dever ser um bloco */
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+
+    #formulario{
+        float: right;
+        width: 70%;
+    }
+
+    
+}
+
+@media screen and (min-width: 992px) {
+    /*Grandes telas*/
+    body{
+        background-image: linear-gradient(to top, #49a09d, #5f2c82 );
+    }
+
+    #login{
+        width: 950px;
+    }
+
+    #imagem{
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+
+    #formulario{
+        float: right;
+        width: 50%;
+    }
+    
+}
